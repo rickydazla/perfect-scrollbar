@@ -23,3 +23,15 @@ $ps-theme-default: (
 .ps {
   @include ps-container($ps-theme-default);
 }
+
+.ps--theme_ts {
+    border-radius: 0,
+    rail-default-opacity: 1,
+    rail-container-hover-opacity: 1,
+    rail-hover-opacity: 1,
+    bar-bg: transparent,
+    bar-container-hover-bg: $ts-brand,
+    bar-hover-bg: $ts-brand,
+    rail-hover-bg: transparent
+  )));
+}
