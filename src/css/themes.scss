@@ -25,6 +25,7 @@ $ps-theme-default: (
 }
 
 .ps--theme_ts {
+  @include ps-container(map-merge($ps-theme-default, (
     border-radius: 0,
     rail-default-opacity: 1,
     rail-container-hover-opacity: 1,
